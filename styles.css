@@ -16,7 +16,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(background1.jpg) no-repeat center;
+  background: url(background2.jpg) no-repeat center;
   background-size: cover;
   filter: none;
   z-index:1;
@@ -42,6 +42,7 @@ body {
 
   backdrop-filter: blur(10px);
   border-radius: 1vmin;
+  background: rgb(195 229 254) 19%)
 }
 
 .tile {
@@ -51,13 +52,12 @@ body {
   align-items: center;
   width: var(--cell-size);
   height: var(--cell-size);
-  background: rgb(243, 64, 64);
   border-radius: 1vmin;
   top: calc(var(--y) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
   left: calc(var(--x) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
   font-weight: bold;
-  background-color: hsl(200, 50%, var(--background-lightness)) !important;
-  color: hsl(200, 25%, var(--text-lightness)) !important;
+  background-color: hsl(100, 50%, var(--background-lightness)) !important;
+  color: hsl(100, 25%, var(--text-lightness)) !important;
   animation: show 200ms ease-in-out;
   transition: 100ms ease-in-out;
   z-index:10;
