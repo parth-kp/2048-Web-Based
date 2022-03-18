@@ -1,5 +1,5 @@
 const GRID_SIZE = parseInt(prompt("Enter Grid Size (Must be 4, Hard-3 and Easy-5) "));
-const CELL_SIZE = 20
+const CELL_SIZE = 15
 const CELL_GAP = 2
 
 export default class Grid {
