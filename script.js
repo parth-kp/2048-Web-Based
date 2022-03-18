@@ -55,6 +55,7 @@ async function handleInput(e) {
   if (!canMoveUp() && !canMoveDown() && !canMoveLeft() && !canMoveRight()) {
     newTile.waitForTransition(true).then(() => {
       alert("HEHE, YOU LOST XD!!\r\n\r\nMade By - PARTH ;)")
+      location.reload();
     })
     return
   }
